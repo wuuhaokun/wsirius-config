@@ -7,7 +7,7 @@ spring:
     name: seckill-service
   data:
     elasticsearch:
-      cluster-name: elasticsearch
+      cluster-name: elasticsearch_chao-kun.wu
       cluster-nodes: 127.0.0.1:9300
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8&useSSL=false
