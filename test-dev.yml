@@ -31,7 +31,7 @@ ip:
   t:
     w: 12312123
 
-leyou:
+jiwell:
   jwt:
     cookieName: LY_TOKEN
     pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址

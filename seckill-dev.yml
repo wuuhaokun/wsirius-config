@@ -23,7 +23,7 @@ spring:
     password: leyou
     host: 127.0.0.1
     template:
-      exchange: leyou.order.exchange
+      exchange: jiwell.order.exchange
     publisher-confirms: true
   redis:
     host: 127.0.0.1
@@ -62,7 +62,7 @@ hystrix:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
 
-leyou:
+jiwell:
   jwt:
     cookieName: LY_TOKEN
     pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址

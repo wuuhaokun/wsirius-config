@@ -47,7 +47,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
-leyou:
+jiwell:
   jwt:
     cookieName: LY_TOKEN
     pubKeyPath: G:\\tmp\\rsa\\rsa.pub # 公钥地址

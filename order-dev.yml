@@ -17,7 +17,7 @@ spring:
     password: leyou
     virtual-host: /leyou
     template:
-      queue: leyou.order.delay.queue
+      queue: jiwell.order.delay.queue
     publisher-confirms: true
   redis:
     host: 127.0.0.1
@@ -34,7 +34,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10
 
 mybatis:
-  type-aliases-package: com.leyou.order.pojo
+  type-aliases-package: com.jiwell.order.pojo
   mapper-locations: mapper/OrderMapper.xml
 
 ribbon:
@@ -51,7 +51,7 @@ hystrix:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
 
-leyou:
+jiwell:
   worker:
     workerId: 1
     dataCenterId: 1
