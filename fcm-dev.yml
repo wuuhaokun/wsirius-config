@@ -15,3 +15,8 @@ jiwell:
     accessKeySecret: 1uh79I1UAmwQ4YWsSmOgxw7JEBGA0v
     signName: 乐优商城
     verifyCodeTemplate: SMS_148614415
+
+app:
+  firebase-configuration-file: google/carplus-used-car-firebase-adminsdk-h8g45-16ca91d709.json
+  notifications:
+     defaults: {topic: 'common', title: 'Common topic - Hello', message: 'Sending test message \uD83D\uDE42', token:'c0jn65ecEe4:APA91bGZARxEvOF9uuBztJpWU1Nu9iN09SJ_eWKLWecwYpGEakREFAuiNbnXW8AuQrjLDPa3RXxTUWW_2iaponUD8dipab8frv7KA1XpXiGYGa4O30pKdJopyeP3bSd3biRJbB4ZMIDf', payloadMessageId: '123', payloadData: 'Hello. This is payload content.'}
