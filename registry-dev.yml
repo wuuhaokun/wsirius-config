@@ -4,9 +4,9 @@ spring:
   application:
     name: ly-registry
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
+    virtual-host: /ji-well
+    username: /ji-well
+    password: ji-well
     host: 127.0.0.1
 eureka:
   client:

@@ -4,9 +4,9 @@ spring:
   application:
     name: upload-service
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
+    virtual-host: /ji-well
+    username: /ji-well
+    password: ji-well
     host: 127.0.0.1
   servlet:
     multipart:
@@ -29,4 +29,4 @@ fdfs:
     width: 60
     height: 60
   tracker-list: # tracker地址
-    - 127.0.0.1:22122
+    - 192.168.43.78:22122

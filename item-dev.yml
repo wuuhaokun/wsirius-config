@@ -15,9 +15,9 @@ spring:
     host: 127.0.0.1
   rabbitmq:
     host: 127.0.0.1
-    username: /leyou
-    password: leyou
-    virtual-host: /leyou
+    username: /ji-well
+    password: ji-well
+    virtual-host: /ji-well
     template:
       retry:
         enabled: true
