@@ -10,7 +10,7 @@ spring:
       host: 127.0.0.1
       database: leyoudb
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://35.236.155.182:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 1234567890
@@ -21,9 +21,9 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: 127.0.0.1
+    host: 35.236.155.182
   redis:
-    host: 127.0.0.1
+    host: 35.236.155.182
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:
