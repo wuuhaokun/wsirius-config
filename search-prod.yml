@@ -22,7 +22,7 @@ spring:
     add-mappings: true
     chain:
       enabled: true
-      gzipped: true
+      #gzipped: true
       html-application-cache: true
     cache:
       period: 3600m
@@ -43,5 +43,3 @@ feign:
       default:
         connect-timeout: 100000
         read-timeout: 100000
-main:
-  allow-bean-definition-overriding: true

@@ -6,9 +6,12 @@ spring:
   application:
     name: search-service
   data:
+    #    elasticsearch:
+    #      cluster-name: elasticsearch_chao-kun.wu
+    #      cluster-nodes: 127.0.0.1:9300
     elasticsearch:
       repositories:
-      	enabled: true
+        enabled: true
       cluster-name: elasticsearch
       cluster-nodes: 35.194.244.197:9300
   rabbitmq:
@@ -22,7 +25,7 @@ spring:
     add-mappings: true
     chain:
       enabled: true
-      gzipped: true
+      #gzipped: true
       html-application-cache: true
     cache:
       period: 3600m
@@ -37,5 +40,9 @@ eureka:
     ip-address: 127.0.0.1
     lease-expiration-duration-in-seconds: 10 #10秒不发送九过期
     lease-renewal-interval-in-seconds: 5 #每隔5秒发一次心跳
-main:
-  allow-bean-definition-overriding: true
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 100000
+        read-timeout: 100000
