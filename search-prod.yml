@@ -4,9 +4,6 @@ spring:
   application:
     name: search-service
   data:
-    #elasticsearch:
-      #cluster-name: elasticsearch
-      #cluster-nodes: 10.140.0.6:9300
     elasticsearch:
       repositories:
         enabled: true
