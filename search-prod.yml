@@ -41,3 +41,5 @@ feign:
       default:
         connect-timeout: 100000
         read-timeout: 100000
+main:
+  allow-bean-definition-overriding: true
