@@ -6,9 +6,9 @@ spring:
   application:
     name: search-service
   data:
-    #    elasticsearch:
-    #      cluster-name: elasticsearch_chao-kun.wu
-    #      cluster-nodes: 127.0.0.1:9300
+#    elasticsearch:
+#      cluster-name: elasticsearch_chao-kun.wu
+#      cluster-nodes: 127.0.0.1:9300
     elasticsearch:
       repositories:
         enabled: true
