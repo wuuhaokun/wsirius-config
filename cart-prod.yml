@@ -4,12 +4,12 @@ spring:
   application:
     name: cart-service
   redis:
-    host: redis
+    host: 10.140.0.9
   rabbitmq:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: rabbit
+    host: 10.140.0.9
 eureka:
   client:
     service-url:

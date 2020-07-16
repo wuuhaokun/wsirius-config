@@ -6,12 +6,12 @@ spring:
   thymeleaf:
     cache: false
   rabbitmq:
-    host: rabbit
+    host: 10.140.0.9
     username: /ji-well
     password: ji-well
     virtual-host: /ji-well
   redis:
-    host: redis
+    host: 10.140.0.9
 eureka:
   client:
     service-url:

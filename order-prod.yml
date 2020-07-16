@@ -12,7 +12,7 @@ spring:
       maximum-pool-size: 200
       minimum-idle: 100
   rabbitmq:
-    host: rabbit
+    host: 10.140.0.9
     username: /ji-well
     password: ji-well
     virtual-host: /ji-well
@@ -20,7 +20,7 @@ spring:
       queue: jiwell.order.delay.queue
     publisher-confirms: true
   redis:
-    host: redis
+    host: 10.140.0.9
 eureka:
   client:
     service-url:

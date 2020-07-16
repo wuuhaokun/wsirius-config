@@ -15,7 +15,7 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: rabbit
+    host: 10.140.0.9
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
