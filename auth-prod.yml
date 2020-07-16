@@ -11,12 +11,12 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://10.140.0.7:10086/eureka #這個在Docker上不能使用127.0.0.1 會抓不到，要使用內網址
+      defaultZone: http://10.140.0.10:10086/eureka #這個在Docker上不能使用127.0.0.1 會抓不到，要使用內網址
     registry-fetch-interval-seconds: 10
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true  #当你获取host时，返回的不是主机名，而是ip
-    ip-address: 10.140.0.7
+    ip-address: 10.140.0.10
     lease-expiration-duration-in-seconds: 10 #10秒不发送九过期
     lease-renewal-interval-in-seconds: 5 #每隔5秒发一次心跳
 jiwell:
