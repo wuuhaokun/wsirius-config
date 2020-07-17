@@ -14,7 +14,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 1234567890
-    driver-class-name: com.mysql.jdbc.Driver
     hikari:
       maximum-pool-size: 20
       minimum-idle: 10
@@ -34,7 +33,7 @@ spring:
     add-mappings: true
     chain:
       enabled: true
-      gzipped: true
+      #gzipped: true
       html-application-cache: true
     cache:
       period: 3600m
