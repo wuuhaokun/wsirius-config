@@ -7,7 +7,7 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: 10.140.0.9
+    host: 10.140.0.2
   servlet:
     multipart:
       max-file-size: 10MB # 限制文件上传的大小

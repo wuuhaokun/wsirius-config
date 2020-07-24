@@ -7,7 +7,7 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: 10.140.0.9
+    host: 10.140.0.2
 
 jiwell:
   sms:

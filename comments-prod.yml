@@ -7,10 +7,10 @@ spring:
     name: comments-service
   data:
     mongodb:
-      host: 10.140.0.6
+      host: 10.128.0.2
       database: jiwelldb
   datasource:
-    url: jdbc:mysql://10.140.0.6:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://10.128.0.2:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 1234567890
@@ -29,12 +29,12 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://10.140.0.10:10086/eureka
+      defaultZone: http://10.140.0.3:10086/eureka
     registry-fetch-interval-seconds: 5
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true  #当你获取host时，返回的不是主机名，而是ip
-    ip-address: 10.140.0.10
+    ip-address: 10.140.0.3
     lease-expiration-duration-in-seconds: 10 #10秒不发送九过期
     lease-renewal-interval-in-seconds: 5 #每隔5秒发一次心跳
 ribbon:
