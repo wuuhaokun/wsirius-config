@@ -10,7 +10,7 @@ spring:
       repositories:
         enabled: true
       cluster-name: elasticsearch
-      cluster-nodes: 10.128.0.2:9300
+      cluster-nodes: 10.140.0.4:9300
   rabbitmq:
     virtual-host: /ji-well
     username: /ji-well

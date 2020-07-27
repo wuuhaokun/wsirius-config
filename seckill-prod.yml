@@ -8,9 +8,9 @@ spring:
   data:
     elasticsearch:
       cluster-name: elasticsearch_chao-kun.wu
-      cluster-nodes: 10.128.0.2:9300
+      cluster-nodes: 10.140.0.4:9300
   datasource:
-    url: jdbc:mysql://10.128.0.2:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://10.140.0.4:3306/jiwell?serverTimezone=CST&characterEncoding=UTF-8&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 1234567890
