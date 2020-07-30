@@ -7,7 +7,7 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: 10.140.0.2
+    host: 10.140.0.4
 eureka:
   client:
     service-url:

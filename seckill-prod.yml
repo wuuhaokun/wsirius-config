@@ -21,12 +21,12 @@ spring:
     virtual-host: /ji-well
     username: /ji-well
     password: ji-well
-    host: 10.140.0.2
+    host: 10.140.0.4
     template:
       exchange: jiwell.order.exchange
     publisher-confirms: true
   redis:
-    host: 10.140.0.2
+    host: 10.140.0.4
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:

@@ -12,9 +12,9 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 10
   redis:
-    host: 10.140.0.2
+    host: 10.140.0.4
   rabbitmq:
-    host: 10.140.0.2
+    host: 10.140.0.4
     username: /ji-well
     password: ji-well
     virtual-host: /ji-well
