@@ -57,7 +57,7 @@ jiwell:
     dataCenterId: 1
   jwt:
     cookieName: LY_TOKEN
-    pubKeyPath: /mydata/rsa/rsa.pub # 公钥地址
+    pubKeyPath: /Users/chao-kun.wu/Documents/jiwell_setting/mydata/rsa/rsa.pub # 公钥地址
   pay:
     appId: wx8397f8696b538317
     mchId: 1473426802
