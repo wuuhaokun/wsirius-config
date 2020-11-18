@@ -31,6 +31,7 @@ zuul:
     seckill-service: /seckill/** #秒杀微服务
     comments-service: /review/** #评论微服务
     fcm-service: /fcm/** #firebase 微服务
+    mail-service: /mail/** #mail 微服务
   ignored-services:
     - upload-service # 忽略upload-service服务
   add-host-header: true #携带请求本身的head头信息
