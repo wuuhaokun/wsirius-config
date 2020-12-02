@@ -62,3 +62,5 @@ jiwell:
        /api/user/check
        /api/user/code
        /api/item
+       /api/fcm
+       /api/mail
