@@ -64,3 +64,14 @@ jiwell:
        /api/item
        /api/fcm
        /api/mail
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: api-gateway.log #添加开启admin的日志监控

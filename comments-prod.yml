@@ -51,3 +51,14 @@ jiwell:
   jwt:
     cookieName: LY_TOKEN
     pubKeyPath: /mydata/rsa/rsa.pub # 公钥地址
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: comments-service.log #添加开启admin的日志监控

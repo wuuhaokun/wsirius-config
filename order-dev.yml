@@ -64,3 +64,14 @@ jiwell:
     key: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
     connectTimeoutMs: 5000
     readTimeoutMs: 10000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: order-service.log #添加开启admin的日志监控

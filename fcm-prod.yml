@@ -35,3 +35,14 @@ app:
 
 # ios token = cBv9PfXHq0jiqRwsxdRK-z:APA91bFqS85i4ZHM5CSGyYxcsI3LzMJ5VB0jTLDu2tsYKiI4B4e05ewln7j9B3zkDmHOry_RU-COnlr4yTqaHXqSOsb8MBDENG61ChvI_qXjU1d_WfD6lgHlraglumtwz1PKZd2FsHks
 # android token = eOKL71lbSOK1nVuMTauw4Q:APA91bE06gB39r7hp5hFhOyFvqVvDNFqgu2DX0aMiy0e71cjAilW33EfK07ElhGdP2nHosV8RbiZL7O1NHXhZ_A-bp520U7MvicN47P0dt-Z3xTrzBhQ-3AADAa_mo7-76O2oSZpmn8J
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: fcm-service.log #添加开启admin的日志监控

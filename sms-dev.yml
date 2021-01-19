@@ -15,3 +15,14 @@ jiwell:
     accessKeySecret: 1uh79I1UAmwQ4YWsSmOgxw7JEBGA0v
     signName: 乐优商城
     verifyCodeTemplate: SMS_148614415
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: sms-service.log #添加开启admin的日志监控

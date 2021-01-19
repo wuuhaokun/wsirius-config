@@ -52,3 +52,13 @@ mail:
 ##spring.mail.properties.mail.smtp.socketFactory.port = 465
 ##spring.mail.properties.mail.smtp.socketFactory.class = javax.net.ssl.SSLSocketFactory
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+#logging:
+#  file: mail-service.log #添加开启admin的日志监控
