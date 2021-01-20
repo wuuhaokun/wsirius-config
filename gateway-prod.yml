@@ -64,6 +64,7 @@ jiwell:
        /api/item
        /api/fcm
        /api/mail
+       /api/favorite
 
 #management:
 #  endpoints:
