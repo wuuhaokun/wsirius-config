@@ -32,7 +32,7 @@ zuul:
     comments-service: /review/** #评论微服务
     fcm-service: /fcm/** #firebase 微服务
     mail-service: /mail/** #mail 微服务
-    favorite-service:/favorite/** #favorite 我的收藏
+    favorite-service: /favorite/**  #商品微服务
   ignored-services:
     - upload-service # 忽略upload-service服务
   add-host-header: true #携带请求本身的head头信息
@@ -64,14 +64,14 @@ jiwell:
        /api/item
        /api/fcm
        /api/mail
-
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: '*'
-#  endpoint:
-#    health:
-#      show-details: always
+       /api/favorite
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
 #logging:
 #  file: api-gateway.log #添加开启admin的日志监控
