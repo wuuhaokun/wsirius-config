@@ -13,7 +13,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://10.140.0.8:10086/eureka
+      defaultZone: http://10.140.0.11:10086/eureka
   server:
     enable-self-preservation: false  #关闭自我保护
     eviction-interval-timer-in-ms: 5000 #每隔5秒进行一次服务列表清理
@@ -32,13 +32,13 @@ hystrix:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  endpoint:
-    health:
-      show-details: always
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#  endpoint:
+#    health:
+#      show-details: always
 #logging:
 #  file: ly-registry.log #添加开启admin的日志监控
