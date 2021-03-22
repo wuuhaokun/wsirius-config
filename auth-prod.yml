@@ -49,5 +49,7 @@ management:
   endpoint:
     health:
       show-details: always
+logstash:
+  host: 10.140.0.4
 #logging:
 #  file: auth-service.log #添加开启admin的日志监控
